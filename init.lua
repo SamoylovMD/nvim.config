@@ -11,6 +11,8 @@ end
 
 vim.opt.rtp:prepend(lazypath)
 
+vim.opt.autochdir = true
+
 local lazy_config = require "configs.lazy"
 
 -- load plugins
