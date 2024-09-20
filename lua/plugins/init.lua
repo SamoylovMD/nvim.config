@@ -13,6 +13,14 @@ return {
     end,
   },
 
+  {
+    "voldikss/vim-floaterm"
+  },
+
+  {
+    "mfussenegger/nvim-dap"
+  }
+
   -- {
   -- 	"nvim-treesitter/nvim-treesitter",
   -- 	opts = {
