@@ -13,18 +13,20 @@ return {
     end,
   },
 
-  {
-    -- Opening terminal session in a floating popup window
-    "voldikss/vim-floaterm"
-  },
+  -- Direnv integration
+  { "direnv/direnv.vim", lazy = false },
 
+  -- Opening terminal session in a floating popup window
+  { "voldikss/vim-floaterm", lazy = false },
+
+  -- Debug adapter protocol
+  { "mfussenegger/nvim-dap", lazy = false },
+
+  -- UI for nvim-dap 
   {
-    -- Debug adapter protocol
-    "mfussenegger/nvim-dap"
-  },
-  {
-    -- UI for nvim-dap 
-    "rcarriga/nvim-dap-ui", dependencies = {"mfussenegger/nvim-dap", "nvim-neotest/nvim-nio"}
+    "rcarriga/nvim-dap-ui", 
+    dependencies = {"mfussenegger/nvim-dap", "nvim-neotest/nvim-nio"},
+    lazy = false
   },
 
   {
