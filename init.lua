@@ -36,4 +36,7 @@ require "nvchad.autocmds"
 
 vim.schedule(function()
   require "mappings"
+  vim.keymap.del("n", "<leader>x")
+  vim.keymap.del("n", "<leader>b")
 end)
+

@@ -5,7 +5,6 @@ return {
     opts = require "configs.conform",
   },
 
-  -- These are some examples, uncomment them if you want to see them work!
   {
     "neovim/nvim-lspconfig",
     config = function()
@@ -18,16 +17,6 @@ return {
 
   -- Opening terminal session in a floating popup window
   { "voldikss/vim-floaterm", lazy = false },
-
-  -- Debug adapter protocol
-  { "mfussenegger/nvim-dap", lazy = false },
-
-  -- UI for nvim-dap 
-  {
-    "rcarriga/nvim-dap-ui", 
-    dependencies = {"mfussenegger/nvim-dap", "nvim-neotest/nvim-nio"},
-    lazy = false
-  },
 
   {
   	"nvim-treesitter/nvim-treesitter",
