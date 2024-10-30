@@ -7,9 +7,9 @@ return {
 
   {
     "neovim/nvim-lspconfig",
-    config = function()
-      require "configs.lspconfig"
-    end,
+    -- config = function()
+      -- require "configs.lspconfig"
+    -- end,
   },
 
   -- Direnv integration
@@ -26,5 +26,20 @@ return {
        "html", "css"
   		},
   	},
+  },
+
+  {
+    "williamboman/mason.nvim",
+    opts = {
+      ensure_installed = {
+        "lua-language-server",
+        -- "pylsp",
+        "basedpyright",
+        "yaml-language-server",
+        "docker-language-server",
+        "docker-compose-language-server",
+        "bash-language-server"
+      },
+    },
   },
 }
