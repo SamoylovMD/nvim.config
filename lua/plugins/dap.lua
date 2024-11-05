@@ -71,7 +71,7 @@ return {
 
       dap.adapters.pytest = {
         type = 'executable',
-        command = "pytest", 
+        command = "pytest",
       }
 
       require("dapui").setup({

@@ -1,5 +1,6 @@
 return {
     "nvimtools/hydra.nvim",
+    enabled = false,
     lazy = false,
     dependencies = {
       "mfussenegger/nvim-dap",
