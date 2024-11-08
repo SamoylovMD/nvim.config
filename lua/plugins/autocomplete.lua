@@ -86,7 +86,7 @@ return {
       "dockerls",
       "docker_compose_language_service",
       "lua_ls",
-      "bashls"
+      -- "bashls"
     }
     -- local nvlsp = require "nvchad.configs.lspconfig"
 

@@ -25,6 +25,9 @@ return {
           "__pycache__"
         }
       },
+      renderer = {
+        group_empty = true
+      },
       live_filter = {
         always_show_folders = false
       },

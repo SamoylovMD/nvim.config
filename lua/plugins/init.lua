@@ -38,7 +38,7 @@ return {
         "yaml-language-server",
         "docker-language-server",
         "docker-compose-language-server",
-        "bash-language-server"
+        -- "bash-language-server"
       },
     },
   },
