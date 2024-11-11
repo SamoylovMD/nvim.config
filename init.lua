@@ -40,3 +40,11 @@ vim.schedule(function()
   vim.keymap.del("n", "<leader>b")
 end)
 
+vim.api.nvim_create_autocmd("BufEnter", {
+  pattern = { ".py" },
+  callback = function()
+    -- nvim-cmp uses python language server in configuration which requires path to current python configured in venv
+    require("lazy").reload("nvim-cmp")
+  end
+})
+
